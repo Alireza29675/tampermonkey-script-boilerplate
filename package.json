@@ -4,7 +4,7 @@
   "description": "Tampermonkey Script Boilerplate",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack; node index.js",
+    "dev": "node index.js",
     "test": "npm test"
   },
   "repository": {
