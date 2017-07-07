@@ -1,28 +1,28 @@
 {
-  "name": "azad-university-hack",
+  "name": "tampermonkey-script-boilerplate",
   "version": "1.0.0",
-  "description": "Hacking tools over TamperMonkey for Azad university students in Iran",
+  "description": "Tampermonkey Script Boilerplate",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "webpack; node index.js",
     "test": "npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alireza29675/Azad-University-Hack.git"
+    "url": "git+https://github.com/Alireza29675/tampermonkey-script-boilerplate.git"
   },
   "keywords": [
-    "azad",
-    "university",
-    "iran",
-    "hack"
+    "tampermonkey",
+    "webpack",
+    "chrome",
+    "userscript"
   ],
   "author": "Alireza Sheikholmolouki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Alireza29675/Azad-University-Hack/issues"
+    "url": "https://github.com/Alireza29675/tampermonkey-script-boilerplate/issues"
   },
-  "homepage": "https://github.com/Alireza29675/Azad-University-Hack#readme",
+  "homepage": "https://github.com/Alireza29675/tampermonkey-script-boilerplate#readme",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",

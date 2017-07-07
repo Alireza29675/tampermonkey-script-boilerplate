@@ -1,9 +1,5 @@
-const { exec } = require('child_process')
 const fs = require('fs')
 const tamper = require('./tamper.config')
-
-exec('webpack')
-
 
 const before = `// ==UserScript==
 // @name         ${tamper.name}
